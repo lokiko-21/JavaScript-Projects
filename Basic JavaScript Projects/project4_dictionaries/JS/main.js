@@ -5,5 +5,6 @@ function myDictionary() {
         State: "Washington" ,
         City: "Federal Way" ,
     };
-    document.getElementById("Dictionary").innerHTML = Location.State;
+    delete Location.Country;
+    document.getElementById("Dictionary").innerHTML = Location.Country;
 }
