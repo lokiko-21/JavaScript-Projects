@@ -51,4 +51,6 @@ document.write(X);
 
 
 //RANDOM NUMBER
-window.alert("Here's a random number between 0 and 100: " + Math.random() * 100);
+window.alert("Here's a random number between 0 and 100: " + Math.round(Math.random() * 100));
+
+document.write(". PI is qual to: " + Math.PI);
