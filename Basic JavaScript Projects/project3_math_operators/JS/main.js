@@ -8,3 +8,13 @@ function subFunction() {
     var sub = 8 - 4;
     document.getElementById("subtraction").innerHTML = "8 - 4 = " + sub;
 }
+
+function multiFunction() {
+    var multi = 3 * 3;
+    document.getElementById("multiplication").innerHTML = "3 * 3 = " + multi;
+}
+
+function divideFunction() {
+    var divide = 6 / 2;
+    document.getElementById("division").innerHTML = "6 / 2 = " + divide;
+}
