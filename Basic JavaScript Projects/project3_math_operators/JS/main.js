@@ -26,5 +26,5 @@ function operationFunction() {
 
 function modFunction() {
     var mod = 17 % 5;
-    document.getElementById("modulus").innerHTML = "The remainder is: " + mod;
+    document.getElementById("modulus").innerHTML = "The negative value of the remainder is: " + -mod;
 }
