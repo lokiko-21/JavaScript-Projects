@@ -18,3 +18,8 @@ function divideFunction() {
     var divide = 6 / 2;
     document.getElementById("division").innerHTML = "6 / 2 = " + divide;
 }
+
+function operationFunction() {
+    var operation = (4 + 2) / (1 + 1);
+    document.getElementById("multiOperation").innerHTML = "(4 + 2) / (1 + 1) = " + operation;
+}
