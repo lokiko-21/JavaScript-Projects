@@ -48,3 +48,7 @@ document.write(", and decrementing 22 by 1 brings me back to: ")
 
 X--;
 document.write(X);
+
+
+//RANDOM NUMBER
+window.alert("Here's a random number between 0 and 100: " + Math.random() * 100);
