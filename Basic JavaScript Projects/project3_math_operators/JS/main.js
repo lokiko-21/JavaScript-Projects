@@ -23,3 +23,8 @@ function operationFunction() {
     var operation = (4 + 2) / (1 + 1);
     document.getElementById("multiOperation").innerHTML = "(4 + 2) / (1 + 1) = " + operation;
 }
+
+function modFunction() {
+    var mod = 17 % 5;
+    document.getElementById("modulus").innerHTML = "The remainder is: " + mod;
+}
