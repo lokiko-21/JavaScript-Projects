@@ -50,7 +50,9 @@ X--;
 document.write(X);
 
 
-//RANDOM NUMBER
+//RANDOM NUMBER & MATH OBJECT METHOD
 window.alert("Here's a random number between 0 and 100: " + Math.round(Math.random() * 100));
 
+
+//MATH OBJECT
 document.write(". PI is qual to: " + Math.PI);
