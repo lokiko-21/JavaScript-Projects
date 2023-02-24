@@ -1,25 +1,48 @@
+//VARIABLES
+
+var A = "21";
+var B = 21;
+var C = "Twenty-One";
+var D = "Spider-Man"
+
+
 //JS CONTENT
 
 //USING TYPEOF
 document.write(typeof 45);
-document.write(" | ")
+document.write(" | ");
 
 //USING TYPE COERCION
 document.write("2" + 1);
-document.write(" | ")
+document.write(" | ");
 
 document.write(2e310);
-document.write(" | ")
+document.write(" | ");
 
 //USING (+/-)INFINITY
 document.write(-2e310);
-document.write(" | ")
+document.write(" | ");
 
 document.write(10 > 2);
-document.write(" | ")
+document.write(" | ");
 
 //BOOLEAN OPERATIONS
 document.write(10 < 2);
+document.write(" | ");
+
+document.write(11 == 2);
+document.write(" | ");
+document.write(5 ==5);
+document.write(" | ");
+
+//USING === TO COMPARE AVLUES AND DATA TYPES
+document.write(21 === B);
+document.write(" | ");
+document.write(D === B);
+document.write(" | ");
+document.write(A === B);
+document.write(" | ");
+document.write(C === D);
 
 
 //FUNCTIONS
