@@ -4,6 +4,9 @@ function concatFunction() {
     var middleName = "Antonio ";
     var fullName = firstName.concat(middleName, lastName);
     var section = middleName.slice(2, 5);
+    var position = fullName.search("Antonio");
     document.getElementById("myName").innerHTML = "My name is " + fullName;
-    document.getElementById("slice").innerHTML = section + " is a word that can be found withing my middle name.";
+    document.getElementById("slice").innerHTML = section.toUpperCase() + " is a word that can be found withing my middle name.";
+    document.getElementById("search").innerHTML = "Antonio starts in index position " +
+    position + " within my full name: " + fullName;
 }
