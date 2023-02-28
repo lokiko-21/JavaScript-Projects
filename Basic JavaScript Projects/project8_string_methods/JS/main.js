@@ -13,5 +13,7 @@ function firstFunction() {
 
 function secondFunction() {
     var myAge = 20;
+    var randomNumber = 2169.619206;
     document.getElementById("convertToString").innerHTML = myAge.toString();
+    document.getElementById("precise").innerHTML = randomNumber.toPrecision(4);
 }
