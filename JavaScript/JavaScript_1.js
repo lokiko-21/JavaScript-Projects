@@ -1,3 +1,4 @@
+//USING SWITCH STATEMENT
 function sportFunction() {
     var reply;
     var sports = document.getElementById("sportInput").value;
@@ -31,4 +32,9 @@ function sportFunction() {
             reply = "Please enter the sport exactly as written above."
     }
     document.getElementById("output").innerHTML = reply;
+}
+
+//GET ELEMENT BY CLASS
+function classFunction() {
+    document.getElementsByClassName("class1")[0].innerHTML = "Text has changed";
 }
