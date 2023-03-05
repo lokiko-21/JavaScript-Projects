@@ -1,0 +1,25 @@
+form {
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+label {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: #3d3d3d;
+}
+
+input {
+    width: 80%;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#submitForm {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #dbdbdb;
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
