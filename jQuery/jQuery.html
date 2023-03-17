@@ -12,8 +12,13 @@
     </head>
 
     <script>
+
+        //EVENT START WHEN PAGE IS READY
         $(document).ready(function() {
+
+            //ADDS CONTENT AFTER html TAG
             $("html").append(
+                //START OF HTML
                 "<body>\
                     <div id = 'container'>\
                         <div id = 'inner'>\
@@ -25,6 +30,9 @@
                     </div>\
                 </body>"
             );
+            //END OF HTML
+
+            //USING METHODS TO ADD CSS AND SPECIAL EFFECTS
             $("#2").css({"color": "red"});
             $("#3").click(function() {
                 $("h1").hide("slow");
