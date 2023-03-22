@@ -36,6 +36,10 @@ footer {
     border-top: 2px solid black;
 }
 
+.remove {
+    padding-bottom: 5px;
+}
+
 #foot li {
     font-size: 20px;
 }
