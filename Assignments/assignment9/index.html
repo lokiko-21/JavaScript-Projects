@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Double Click Event</title>
+    </head>
+    <body style="background-color: burlywood;">
+        <h1 ondblclick="red()">Double Click Here!</h1>
+        <h2 ondblclick="blue()">Now Here!</h2>
+        <hr>
+        <p id="demo" style="font-size: 30px;">When you double click any of the headings above all of this text will change in color</p>
+
+        <script>
+            function red() {
+                document.getElementById("demo").style.color = "red";
+            }
+            function blue() {
+                document.getElementById("demo").style.color = "blue";
+            }
+        </script>
+    </body>
+</html>
