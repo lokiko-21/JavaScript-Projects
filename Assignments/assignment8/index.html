@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JSON.stringify() Method</title>
+    </head>
+    <body>
+        <p id="convert"></p>
+        <p id="revert"></p>
+        <p id="demo"></p>
+
+        <script>
+            var character = {name: "plop", health: 100, strength: 93};
+            var characterString = JSON.stringify(character);
+            document.getElementById("convert").innerHTML = characterString;
+            var characterobj = JSON.parse(characterString);
+            document.getElementById("revert").innerHTML = "This character has a strength of " +
+                characterobj.strength + ".";
+            localStorage.setItem("powerType", "Fire");
+            document.getElementById("demo").innerHTML = localStorage.getItem("powerType");
+        </script>
+    </body>
+</html>
