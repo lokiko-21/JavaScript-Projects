@@ -42,6 +42,11 @@ function show() {
     html += '</ul>';
     //DISPLAYS TASK
     document.getElementById('todos').innerHTML = html;
+
+    var buttons = document.getElementsByClassName('remove');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', remove);
+    }
 }
 //DISPLAYS INPUTED TASK WHEN 'Add Item' BUTTON IS CLICKED
 document.getElementById('add').addEventListener('click', add);
