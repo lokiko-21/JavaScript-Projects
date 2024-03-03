@@ -15,6 +15,6 @@ This project is a quick game of tic tac toe that I made using HTML, CSS, and Jav
 where a user goes up against a bot to connect 3 in a row. There are visual and audio cues in
 the game to make it more appealing to the user.
 
-### To-Do List
-This project is a simple To Do list where I use HTML, CSS, and JavaScript to allow a user to
-add and delete small tasks that the user writes themselves. 
+### Calculator
+This project is a simple calculator with some styling on the buttons. With this application, you can
+do basic math like addition, subtraction, multiplication, and division.
